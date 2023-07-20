@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body{
+	background-color:skyblue;
+}
+#p1{
+	background-color:black;
+	color:white;
+}
+#p3{
+	color:red;
+}
+ul{
+	line-height:25px;
+}
+ul>li:first-child{
+	background-color:white;
+	padding:5px;
+}
+ul>li:nth-child(2n+0){
+	background-color:slategray;
+	padding:5px;
+}
+ul>li:last-child{
+	background-color:white;
+	padding:5px;
+}
+ul>li:nth-child(3){
+	background-color:pink;
+	padding:5px;
+}
