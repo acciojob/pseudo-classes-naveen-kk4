@@ -16,7 +16,11 @@ ul>li:first-child{
 	background-color:white;
 	padding:5px;
 }
-ul>li:nth-child(2n+0){
+ul>li:nth-child(2){
+	background-color:slategray;
+	padding:5px;
+}
+ul>li:nth-child(4){
 	background-color:slategray;
 	padding:5px;
 }
